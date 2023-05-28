@@ -1,0 +1,11 @@
+<app-agregar (newItemEvent)="addItem($event)"></app-agregar>
+<hr>
+<hr>
+<div class="centered-div">
+    <div class="custom-div">
+      <ul class="custom-list">
+        <li *ngFor="let item of lista" class="custom-item">{{item}}</li>
+      </ul>
+    </div>
+  </div>
+
